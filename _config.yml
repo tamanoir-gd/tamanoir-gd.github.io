@@ -5,19 +5,19 @@
 # 你的博客名称，请用你想要的博客名替换“LOFFER”，以下修改都可类似处理
 # 注意，“name: LOFFER”，冒号后面的空格不可以省略。
 # 井号后面的文字是说明文档，不会被程序读取。
-name: Tamanoid-gd
+name: tamanoid-gd
 # 描述/签名
-description: For life
+description: For life!
 
 #
 # 下面的设定都是可选的
 #
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
+avatar: https://github.com/tamanoir-gd/tamanoir-gd.github.io/blob/master/images/Tananoir_origin.png
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/favicon.png
+favicon: https://github.com/tamanoir-gd/tamanoir-gd.github.io/blob/master/images/Tananoir_origin.png
 
 
 # 菜单中的按钮
@@ -53,7 +53,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # 站点页脚的文字
-footer-text: ！_ !
+footer-text: Study for the develpment and liberation of productivity!
 
 # 输入Disqus shortname，即可添加评论区，细节可阅读文档。
 disqus:  #shortname
