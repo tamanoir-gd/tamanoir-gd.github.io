@@ -14,7 +14,8 @@ description: For life!
 #
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: https://github.com/tamanoir-gd/tamanoir-gd.github.io/blob/master/images/Tananoir_origin.png
+avatar: https://github.com/tamanoir-gd/tamanoir-gd.github.io/blob/master/images/Tananoir_origin.png?raw=true
+# https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 favicon: https://github.com/tamanoir-gd/tamanoir-gd.github.io/blob/master/images/Tananoir_origin.png
