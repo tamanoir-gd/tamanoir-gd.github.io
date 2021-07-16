@@ -1,0 +1,22 @@
+##随机字符生成器
+```r
+###随机字符生成器
+###需求：1. 生成指定长度的字符串；2. 包含大小写字母、数字、特殊符号；3. 随机字符构成可选
+#建立数组
+#确定长度
+#确定包含类型
+library(tidyverse)
+random_charactors <- function(num_length, Number = num, A = LETTERS, a = letters, Signal = sign) {
+    num <- c(0:9)
+    a <- letters
+    A <- LETTERS  
+    sign <- c("!", "%", "?", "-", "/", "_", "+", "=", "<", ">", ",",".", "`", "~", "@", "#", "$", "^", "&", "*", "(", ")", "[", "]", "{", "}", ";", ":")
+    type <- c(Number, letters, LETTERS, Signal)  
+    Char <- sample(type, num_length, replace = TRUE)
+    print(str_c(Char, collapse = ""))
+}
+```
+
+学习R语言有两个月左右了，断断续续看了一个月的*R for Data Science*。
+
+今天看到AlphaFold2上了*Nature*, *Sience* 也刊发了一篇关于蛋白结构预测的*Accurate prediction of protein structures and interactions using a three-track neural network。*参考里面在线工具进行注册时需要随机密码, 于是用*R* 写了一个随机字符生成器。
